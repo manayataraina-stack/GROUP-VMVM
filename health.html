@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h2>Tell Us About Your Health</h2>
+
+    <label for="disease">Select your disease:</label><br><br>
+    <select id="disease">
+        <option value="">-- Select --</option>
+        <option value="diabetes">Diabetes</option>
+        <option value="bp">Blood Pressure</option>
+        <option value="pcos">PCOS</option>
+        <option value="heart">Heart Problem</option>
+    </select>
+
+    <br><br>
+    <button onclick="showQuestions()">Next</button>
+
+    <div id="healthQuestions"></div>
+
+    <br>
+    <button onclick="goToIngredients()">Continue</button>
+
+    <script src="js/health.js"></script>
+</body>
+</html>
